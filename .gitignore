@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+__pycache__/
+
+# PyInstaller build
+build/
+dist/
+*.spec
+
+# База данных (не заливаем реальные данные)
+data/*.db
+*.db
+fsin_med.db
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+*.pyc
+*.pyo
+*.log
